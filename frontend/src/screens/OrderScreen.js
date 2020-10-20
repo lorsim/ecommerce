@@ -73,7 +73,7 @@ const OrderScreen = ({ match, history }) => {
       } else {
         setSdkReady(true)
       }
-    } // eslint-disable-next-line
+    }
   }, [dispatch, orderId, successPay, successDeliver, order])
 
   const successPaymentHandler = (paymentResult) => {
